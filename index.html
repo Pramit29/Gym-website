@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website made by Pramit</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg');
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px blue solid; */
+        position: absolute;
+        left: 13px;
+        top: 15px;
+        /* margin-left:34px;
+        margin-top:20px; */
+
+    }
+
+    .left img {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .left div {
+        font-size: 14px;
+        text-align: center;
+        font-family: cursive;
+        color: white;
+        font-weight: bold;
+        line-height: 0px;
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        padding: 0px;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 39px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar li {
+        display: inline-block;
+
+        /* border: 2px solid brown; */
+
+        /* padding: 34px 20px; */
+        font-size: 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 20px;
+        margin: 1px;
+        /* border: 2px solid orange; */
+    }
+
+    .navbar {
+        /* border: 2px solid white; */
+        display: inline-block;
+
+
+    }
+
+    .container {
+        border:4px solid rgb(0, 0, 0);
+        padding: 0px 0px;
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin: 153px auto;
+        border-radius: 15px;
+
+    }
+
+    .btn {
+        margin: 4px;
+        color: black;
+        background-color: grey;
+        font-weight: bold;
+        padding: 5px 19px;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: auto;
+    }
+
+    .btn:hover {
+        color: white;
+        text-decoration: underline;
+
+    }
+    .form-group input{
+        margin: 4px 0px;
+        font-size: 18px;
+        padding: 2px;
+        width: 500px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 2px black solid;
+        border-radius: 5px;
+
+    }
+    .container button{
+        margin: 10px auto;
+        width: 40%;
+        font-size: 18px;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="Images/Violet Barbell Icon Fitness Logo.png" alt="not available">
+            <div>Your Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.google.co.in/">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym of Delhi now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Address">
+            </div>
+            <button class="btn">
+                Submit Now
+            </button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
